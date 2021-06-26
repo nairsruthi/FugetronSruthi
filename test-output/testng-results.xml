@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Validating Landing on Amazon music by getting the title of current page]]>
+    </line>
+    <line>
+      <![CDATA[Stream Music on Amazon Prime Music]]>
+    </line>
+    <line>
+      <![CDATA[RestAssured GET method executed]]>
+    </line>
+    <line>
+      <![CDATA[RestAssured POST method executed]]>
+    </line>
+    <line>
+      <![CDATA[JDBC Connection established]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-06-26T17:51:08 IST" name="Suite" finished-at="2021-06-26T17:51:43 IST" duration-ms="34365">
+    <groups>
+    </groups>
+    <test started-at="2021-06-26T17:51:08 IST" name="Test" finished-at="2021-06-26T17:51:43 IST" duration-ms="34365">
+      <class name="InterviewTests.FugetronSruthi.JDBCTest">
+        <test-method signature="JDBCsetUp()[pri:0, instance:InterviewTests.FugetronSruthi.JDBCTest@cd3fee8]" started-at="2021-06-26T17:51:43 IST" name="JDBCsetUp" finished-at="2021-06-26T17:51:43 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[JDBC Connection established]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- JDBCsetUp -->
+      </class> <!-- InterviewTests.FugetronSruthi.JDBCTest -->
+      <class name="InterviewTests.FugetronSruthi.APITest">
+        <test-method signature="GetAPI()[pri:0, instance:InterviewTests.FugetronSruthi.APITest@3c130745]" started-at="2021-06-26T17:51:39 IST" name="GetAPI" finished-at="2021-06-26T17:51:42 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[RestAssured GET method executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetAPI -->
+        <test-method signature="PostAPI()[pri:0, instance:InterviewTests.FugetronSruthi.APITest@3c130745]" started-at="2021-06-26T17:51:42 IST" name="PostAPI" finished-at="2021-06-26T17:51:43 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[RestAssured POST method executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostAPI -->
+      </class> <!-- InterviewTests.FugetronSruthi.APITest -->
+      <class name="InterviewTests.FugetronSruthi.AmazonTest">
+        <test-method signature="TestAmazon()[pri:0, instance:InterviewTests.FugetronSruthi.AmazonTest@69b2283a]" started-at="2021-06-26T17:51:08 IST" name="TestAmazon" finished-at="2021-06-26T17:51:39 IST" duration-ms="30960" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating Landing on Amazon music by getting the title of current page]]>
+            </line>
+            <line>
+              <![CDATA[Stream Music on Amazon Prime Music]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestAmazon -->
+      </class> <!-- InterviewTests.FugetronSruthi.AmazonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

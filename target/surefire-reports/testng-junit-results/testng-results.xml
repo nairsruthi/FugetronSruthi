@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-26T15:25:35 IST" name="Surefire suite" finished-at="2021-06-26T15:26:06 IST" duration-ms="31262">
+    <groups>
+    </groups>
+    <test started-at="2021-06-26T15:25:35 IST" name="Surefire test" finished-at="2021-06-26T15:26:06 IST" duration-ms="31262">
+      <class name="InterviewTests.FugetronSruthi.AmazonTest">
+        <test-method signature="TestAmazon() throws java.lang.InterruptedException" started-at="2021-06-26T15:25:35 IST" name="TestAmazon" finished-at="2021-06-26T15:26:06 IST" duration-ms="31215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAmazon -->
+      </class> <!-- InterviewTests.FugetronSruthi.AmazonTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-26T15:25:28 IST" name="Surefire suite" finished-at="2021-06-26T15:25:34 IST" duration-ms="6888">
+    <groups>
+    </groups>
+    <test started-at="2021-06-26T15:25:28 IST" name="Surefire test" finished-at="2021-06-26T15:25:34 IST" duration-ms="6888">
+      <class name="InterviewTests.FugetronSruthi.APITest">
+        <test-method signature="GetAPI()[pri:0, instance:InterviewTests.FugetronSruthi.APITest@120d6fe6]" started-at="2021-06-26T15:25:28 IST" name="GetAPI" finished-at="2021-06-26T15:25:33 IST" duration-ms="5733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAPI -->
+        <test-method signature="PostAPI()[pri:0, instance:InterviewTests.FugetronSruthi.APITest@120d6fe6]" started-at="2021-06-26T15:25:33 IST" name="PostAPI" finished-at="2021-06-26T15:25:34 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostAPI -->
+      </class> <!-- InterviewTests.FugetronSruthi.APITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
